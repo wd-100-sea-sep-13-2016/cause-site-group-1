@@ -1,0 +1,28 @@
+#statement {
+	font: 50px 'Pacifico', cursive;
+	text-align: center;
+	color: #009900;
+	position: relative;
+	top: 75px;
+}
+#navbar {
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	background: #009900;
+	height: 100px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: block;
+}
+#navbuttons {
+	list-style: none;
+}
+#navbuttons li a {
+	display: inline-block;
+	font: 30px 'Josefin Slab', serif;
+	text-decoration: none;
+	float: right;
+	margin: 40px 60px 20px 0;
+	color: #ffffff;
+}
