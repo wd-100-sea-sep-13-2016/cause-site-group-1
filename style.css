@@ -14,6 +14,7 @@
 	top: 0;
 	left: 0;
 	display: block;
+	z-index: 99999;
 }
 #navbuttons {
 	list-style: none;
@@ -23,6 +24,32 @@
 	font: 30px 'Josefin Slab', serif;
 	text-decoration: none;
 	float: right;
-	margin: 20px 60px 20px 0;
+	margin: 40px 60px 20px 0;
 	color: #ffffff;
+}
+#box {
+	position: relative;
+	width: 80%;
+	height: 500px;
+	top: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 10px solid #009900;
+	border-radius: 10px;
+	display: block;
+}
+#open {
+	height: 400px;
+	width: 500px;
+	float: right;
+    margin: 25px;
+}
+#hometext {
+	font: 40px 'Josefin Slab', serif;
+	text-align: center;
+	margin: 35px;
+	color: #663300;
+}
+#important {
+	color: #00ccff;
 }
