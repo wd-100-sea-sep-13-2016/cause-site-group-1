@@ -5,6 +5,19 @@
 	position: relative;
 	top: 75px;
 }
+
+#statement2 {
+	font: 30px 'Pacifico', cursive;
+	color: white;
+}
+
+#statement3 {
+	font: 30px 'Pacifico', cursive;
+	color: white;
+margin-right: -750px;
+	text-align: center;
+}
+
 #navbar {
 	width: 100%;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -25,4 +38,27 @@
 	float: right;
 	margin: 40px 60px 20px 0;
 	color: #ffffff;
+}
+
+#localbar {
+	width: 75%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	background: #009900;
+	height: 50px;
+	top: 100px;
+	display: block;
+	position: relative;
+}
+
+#localbarright {
+	width: 75%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	background: #009900;
+	height: 50px;
+	margin-top: 400px;
+	display: block;
+	position: relative;
+	margin-left: 355px;
+	top: 5px;
+	clear: right;
 }
