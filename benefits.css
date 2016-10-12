@@ -1,0 +1,85 @@
+#logo {
+	position: fixed;
+	top: 15px;
+	left: 20px;
+	z-index: 99999;
+	width: 80px;
+	height: auto;
+	box-shadow: 0 0 0 4px #ffffff;
+	border: 2px dashed #009900;
+	border-radius: 50px;
+	background: #ffffff;
+}
+#statement {
+	font: 50px 'Pacifico', cursive;
+	text-align: center;
+	color: #009900;
+	position: relative;
+	top: 81px;
+	left: 0;
+	right: 0;
+	border-top: 2px dashed #009900;
+	text-shadow: -1px -1px #000000;
+	padding-top: 7px;
+}
+#navbar {
+	box-shadow: 0 0 0 7px #009900, 0 4px 8px 0 rgba(0,0,0,0.2);
+	background: #009900;
+	height: 100px;
+	position: fixed;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	display: block;
+	z-index: 99998;
+	border: 2px dashed #ffffff;
+	text-shadow: -1px -1px #000000;
+}
+#navbuttons {
+	list-style: none;
+}
+#navbuttons li a {
+	display: inline-block;
+	font: 30px 'Josefin Slab', serif;
+	text-decoration: none;
+	float: right;
+	margin: 40px 60px 20px 0;
+	color: #ffffff;
+}
+#greenstitch {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	left: 5px;
+	bottom: 5px;
+	box-shadow: 0 0 0 4px #ffffff;
+	border: 2px dashed #009900;
+}
+#important {
+	color: #00ccff;
+	font-family: 'Pacifico', cursive;
+}
+#left {
+	position: absolute;
+	top: 100px;
+	left: 0;
+	width: 20%;
+	height: 500px;
+	text-align: center;
+}
+#center {
+	position: absolute;
+	top: 100px;
+	width: 20%;
+	height: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+#right {
+	position: absolute;
+	top: 100px;
+	right: 0;
+	width: 20%;
+	height: 500px;
+	text-align: center;
+}
